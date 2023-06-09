@@ -7,7 +7,7 @@ const HomePage = () => {
   const getAllData = async () => {
     try {
       const getPeople = await fetch(
-        "emp-backend-production-c6c2.up.railway.app/api/v1/getallUsers",
+        "https://emp-backend-production-c6c2.up.railway.app/api/v1/getallUsers",
         {
           method: "GET",
           headers: {
