@@ -8,7 +8,7 @@ const EmployeeForm = () => {
 
   const createEmployee = async (data) => {
     const savedUserResponse = await fetch(
-      "emp-backend-production-c6c2.up.railway.app/api/v1/createUser",
+      "http://emp-backend-production-c6c2.up.railway.app/api/v1/createUser",
       {
         method: "POST",
         headers: {
